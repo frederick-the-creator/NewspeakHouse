@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        accent: "var(--accent)",
+      },
+      backgroundImage: {
+        'turner-gradient': 'linear-gradient(to right, #f9e7d2, #fdf2e9, #fae5d3)',
       },
     },
   },
